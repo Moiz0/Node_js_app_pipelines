@@ -20,7 +20,7 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: 22
           script: |
-            echo "Connected successfully"
+            echo "Connected successfully!!"
             cd ~/Node_js_app_pipelines
             git pull origin master
             docker compose up -d --build
